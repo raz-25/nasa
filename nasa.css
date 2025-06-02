@@ -94,6 +94,8 @@ img{
     top: 30%;
     color: black;
     background-image: url(./image/star-field-space-nebulae-gas-congestion_941265-18868.avif );
+    background-repeat: no-repeat;
+    background-size:cover;
     color: white;
     /*background-image: linear-gradient(to right, black , red , black);*/
 }
