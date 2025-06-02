@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 80px;
+}
+
+.explore {
+    width: 15px;
+    display: flex;
+    padding: 5px 10px;
+    gap: 15px;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.im {
+    width: 40px;
+    height: 10vh;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.last {
+    display: flex;
+    gap: 50px;
+}
+
+.live {
+    border: 2px solid red;
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+   
+
+}
+
+input {
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    height: 30px;
+}
+img{
+    color: white;
+}
+
+.mission {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: 1px;
+    padding: 5px 30px ;
+    right: 10px;
+
+}
+
+.line {
+    display: flex;
+    gap: 30px;
+    padding: 100px 30px 0;
+}
+
+.par {
+    display: flex;
+    gap: 150px;
+    padding: 10px 30px 0;
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    top: 30%;
+    color: black;
+    /*background-image: url(./space.png);*/
+    color: white;
+    background-image: linear-gradient(to right, black , red , black);
+}
+
+.main h1 {
+    padding: 120px 30px 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.explain {
+    padding: 10px 30px 0;
+}
